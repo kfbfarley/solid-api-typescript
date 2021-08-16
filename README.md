@@ -45,6 +45,21 @@ npm install
 npm run start
 ```
 
+> Here is an example of the POST body request you have to send to http://localhost:3000/user 
+
+```
+{
+	"first_name": "Jonh",
+	"last_name": "Doe",
+	"age": "20",
+	"email": "doe@example.com",
+	"phone": "+351999999999",
+	"password": "doe1999"
+}
+```
+> After that your response status code will be 201. Email & SMS will be sent to the registered user
+
+
 ## 👍 Contributing
 
 Contributions are what make this platform an amazing place to learn, inspire, and create. Please feel free to visit the [open issues](https://github.com/kfbfarley/solid-api-typescript/issues) section to propose or create a related issue.
